@@ -1,0 +1,108 @@
+.modal-main{
+    position: fixed;
+    background: rgba(243, 6, 6, 0);
+    top: 10px;
+    right: 10px;
+    z-index: 99999;
+    width: 100vw;
+    height: 100vw;
+
+}
+
+
+.logout-button{
+        cursor: pointer;
+    }
+
+
+.profile-edit-delete{
+    display: flex;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5%;
+    gap: 15px;
+    background: green;
+}
+.profile-item-container{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.project-list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile-modal-container{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 33%;
+    max-height: 60%;
+    background: rgb(255, 255, 255);
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    
+    
+}
+.session-signup-modal-container, .session-signin-modal-container{
+    position: absolute;
+    margin: 5vw;
+    
+    width: 90%;
+    max-height: 60%;
+    background: rgb(255, 255, 255);
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    
+    
+}
+.s{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 33%;
+    max-height: 60%;
+    background: rgb(255, 255, 255);
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    
+    
+}
+.comment-modal-container{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 33%;
+    max-height: 60%;
+    background: rgb(255, 255, 255);
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    
+    
+}
+.qr-code-modal-container{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    
+    width: 90vw;
+    height: 90vh;
+    background: rgba(255, 255, 255, 0.9);
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    
+    
+}
