@@ -47,9 +47,18 @@
     background: rgb(255, 255, 255);
     border: solid;
     border-width: 1px;
-    border-color: lightgray;
+    border-color: lightgray; 
+}
+.RSVP-modal-container{
+     position: absolute;
+    margin: 5vw;
     
-    
+    width: 90%;
+    max-height: 60%;
+    background: rgb(255, 255, 255);
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray; 
 }
 .session-signup-modal-container, .session-signin-modal-container{
     position: absolute;

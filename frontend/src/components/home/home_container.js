@@ -1,7 +1,7 @@
 // import React from "react";
 import { connect } from "react-redux";
 import { logout, login, signup } from "../../actions/session_actions";
-
+import { openModal } from "../../actions/modal_actions";
 import HomeView from "./home_view";
 
 
@@ -18,6 +18,7 @@ const mSTP = (state = {}, ownProps) => {
 }
 
 const mDTP = (dispatch, ownProps) => ({
+    openModal: (modal) => dispatch(openModal(modal)),
     logout: () => dispatch(logout()),
     login: (formUser) => dispatch(login(formUser)),
     signup: (formUser) => dispatch(signup(formUser)),

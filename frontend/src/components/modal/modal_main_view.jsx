@@ -5,6 +5,7 @@ import React from "react";
 import "./modal.css"
 import SignUp from "../session/signup_mui";
 import SignIn from "../session/signin_mui";
+import RsvpView from "./rsvp_view"
 
 
 export default class ModalMainView extends React.Component{
@@ -32,6 +33,9 @@ export default class ModalMainView extends React.Component{
             // case 'comment':
             //     modal = <CommentForm createComment={this.props.createComment} locationId={this.props.locationId} closeModal={this.props.closeModal}/>
             //     break
+            case 'RSVP':
+                modal = <RsvpView/>
+                break
             
             default:
                 return null;
